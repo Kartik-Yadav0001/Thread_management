@@ -2,7 +2,7 @@
 
 A dynamic, real-time thread pool simulator for visualizing high-performance computing concepts.
 
-[![CI](https://github.com/Kartik-Yadav0001/Thread/actions/workflows/ci.yml/badge.svg)](https://github.com/Kartik-Yadav0001/Thread/actions/workflows/ci.yml)
+[![CI](https://github.com/Kartik-Yadav0001/Thread_management/actions/workflows/ci.yml/badge.svg)](https://github.com/Kartik-Yadav0001/Thread_management/actions/workflows/ci.yml)
 
 **[Live Demo](https://your-live-demo-url-here.com)**
 
