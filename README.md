@@ -44,8 +44,8 @@ Thread Weaver provides an interactive dashboard to simulate and visualize the be
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Kartik-Yadav0001/Thread.git
-    cd Thread
+    git clone https://github.com/Kartik-Yadav0001/Thread_management.git
+    cd Thread_management
     ```
 
 2.  **Install dependencies:**
