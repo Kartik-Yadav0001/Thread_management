@@ -12,7 +12,8 @@ Thread Weaver provides an interactive dashboard to simulate and visualize the be
 
 *(Add screenshots of the application dashboard here)*
 
-![Thread Weaver Dashboard](https://placehold.co/800x400?text=App+Screenshot+Placeholder)
+![Thread Weaver Dashboard](<img width="2441" height="1237" alt="image" src="https://github.com/user-attachments/assets/5b5af077-df28-4ae2-ae98-da1fbb05c984" />
+)
 
 ## Features
 
