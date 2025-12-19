@@ -4,11 +4,10 @@
 
 ### *High-Performance Thread Pool Simulator*
 
-[![CI](https://github.com/Kartik-Yadav0001/Thread/actions/workflows/ci.yml/badge.svg)](https://github.com/Kartik-Yadav0001/Thread/actions/workflows/ci.yml)
+[![CI](https://github.com/Kartik-Yadav0001/Thread_management/actions/workflows/ci.yml/badge.svg)](https://github.com/Kartik-Yadav0001/Thread_management/actions/workflows/ci.yml)
 [![Live Demo](https://img.shields.io/badge/demo-live-success?style=flat&logo=netlify)](https://threadmanagement.netlify.app/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **[🚀 Live Demo](https://threadmanagement.netlify.app/)** | **[📖 Documentation](docs/)** | **[🐛 Report Bug](https://github.com/Kartik-Yadav0001/Thread_management/issues)**
 
@@ -175,7 +174,7 @@ Please ensure your code follows the existing style and passes all linting checks
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open source and available for educational and personal use.
 
 ## 🙏 Acknowledgments
 
