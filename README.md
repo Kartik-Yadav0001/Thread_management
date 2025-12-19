@@ -12,8 +12,7 @@ Thread Weaver provides an interactive dashboard to simulate and visualize the be
 
 *(Add screenshots of the application dashboard here)*
 
-![Thread Weaver Dashboard](<img width="2441" height="1237" alt="image" src="https://github.com/user-attachments/assets/5b5af077-df28-4ae2-ae98-da1fbb05c984" />
-)
+![Thread Weaver Dashboard](https://1drv.ms/i/c/a6ff82b0a18ba396/IQDvzSsp4dUuSJ5FL47uwqCwAQ2KN6RL0pNJdeU2nTuUryA?e=eWL11k)
 
 ## Features
 
