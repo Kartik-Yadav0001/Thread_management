@@ -10,9 +10,9 @@ Thread Weaver provides an interactive dashboard to simulate and visualize the be
 
 ## Screenshots
 
-*(Add screenshots of the application dashboard here)*
+![Thread Weaver Dashboard](public/images/thread-weaver-dashboard.png)
 
-![Thread Weaver Dashboard](https://1drv.ms/i/c/a6ff82b0a18ba396/IQDvzSsp4dUuSJ5FL47uwqCwAQ2KN6RL0pNJdeU2nTuUryA?e=eWL11k)
+*Interactive dashboard showing thread pool activity, system performance metrics, and AI-powered performance analysis*
 
 ## Features
 
