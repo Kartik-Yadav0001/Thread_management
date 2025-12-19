@@ -1,72 +1,199 @@
-# Thread Weaver
+<div align="center">
 
-A dynamic, real-time thread pool simulator for visualizing high-performance computing concepts.
+# 🧵 Thread Weaver
 
-[![CI](https://github.com/Kartik-Yadav0001/Thread/actions/workflows/ci.yml/badge.svg)](https://github.com/Kartik-Yadav0001/Thread/actions/workflows/ci.yml)
+### *High-Performance Thread Pool Simulator*
 
-**[Live Demo](https://threadmanagement.netlify.app/)**
+[![CI](https://github.com/Kartik-Yadav0001/Thread_management/actions/workflows/ci.yml/badge.svg)](https://github.com/Kartik-Yadav0001/Thread_management/actions/workflows/ci.yml)
+[![Live Demo](https://img.shields.io/badge/demo-live-success?style=flat&logo=netlify)](https://threadmanagement.netlify.app/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
 
-Thread Weaver provides an interactive dashboard to simulate and visualize the behavior of a multi-threaded application. It helps in understanding complex concepts like workload distribution, mutex locks, thread synchronization, and performance optimization in a visual and intuitive way.
+**[🚀 Live Demo](https://threadmanagement.netlify.app/)** | **[📖 Documentation](docs/)** | **[🐛 Report Bug](https://github.com/Kartik-Yadav0001/Thread_management/issues)**
 
-## Screenshots
+</div>
 
-*(Add screenshots of the application dashboard here)*
+---
 
-![Thread Weaver Dashboard](https://1drv.ms/i/c/a6ff82b0a18ba396/IQDvzSsp4dUuSJ5FL47uwqCwAQ2KN6RL0pNJdeU2nTuUryA?e=eWL11k)
+## 📋 Overview
 
-## Features
+Thread Weaver is an **interactive, real-time thread pool simulator** designed to help developers and students visualize and understand complex multi-threading concepts. Experience the intricacies of concurrent programming through an intuitive dashboard that brings theoretical concepts to life.
 
-- **Dynamic Thread Pool:** Adjust the number of threads in real-time and watch the simulation adapt.
-- **Workload Simulation:** Configure the number of tasks and shared resources to simulate different workload profiles.
-- **Real-time Monitoring:** A live-updating dashboard visualizes thread activity, resource utilization, and overall system performance.
-- **AI Performance Analyst:** An integrated AI agent analyzes the simulation and provides intelligent recommendations for optimizing the thread count.
-- **Event Log:** A detailed log streams all significant events, from task completion to resource locking.
-- **Graceful Scaling:** Threads are gracefully created and terminated to reflect real-world thread pool management.
+### 🎯 Key Highlights
 
-## Tech Stack
+- 🎮 **Interactive Controls** - Dynamically adjust thread count, task load, and resource allocation
+- 📊 **Real-time Visualization** - Watch threads work, compete for resources, and complete tasks
+- 🤖 **AI-Powered Insights** - Get intelligent optimization recommendations powered by Google Gemini
+- 📈 **Performance Metrics** - Monitor CPU, memory, throughput, and utilization in real-time
+- 🔒 **Mutex Lock Simulation** - Visualize thread synchronization and resource contention
+- 📝 **Event Logging** - Track every significant event in your thread pool
 
-- **Framework:** [Next.js](https://nextjs.org/) (with App Router)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **UI Components:** [ShadCN UI](https://ui.shadcn.com/)
-- **AI/Generative:** [Google Genkit](https://firebase.google.com/docs/genkit) (with Gemini)
-- **Code Quality:** ESLint, Prettier
-- **CI/CD:** GitHub Actions
+## 🖼️ Screenshots
 
-## Getting Started
+<div align="center">
+
+![Thread Weaver Dashboard](public/images/thread-weaver-dashboard.png)
+
+*Complete dashboard featuring simulation controls, real-time performance metrics, thread pool visualization, resource locks, and AI-powered performance analysis*
+
+</div>
+
+## ✨ Features
+
+### 🎛️ Simulation Controls
+- **Dynamic Thread Pool** - Adjust thread count from 1 to 200 in real-time
+- **Configurable Workload** - Set task count and shared resource allocation
+- **Task Priority System** - Distribute tasks across High, Medium, and Low priorities
+- **Speed Control** - Adjust simulation speed for detailed analysis or quick testing
+
+### 📊 Visualization & Monitoring
+- **Thread Pool Activity** - Visual representation of all threads (Running, Waiting, Idle)
+- **System Performance Graphs** - Real-time CPU, memory, and utilization charts
+- **Resource Lock Status** - Monitor mutex lock states and contention
+- **Live Metrics Dashboard** - Track throughput, completion rate, and utilization percentage
+
+### 🤖 AI-Powered Optimization
+- **Intelligent Analysis** - AI evaluates your workload profile and system performance
+- **Optimization Recommendations** - Get suggestions for optimal thread count
+- **Context-Aware Insights** - Recommendations based on I/O-bound vs CPU-bound workloads
+
+### 📝 Event Tracking
+- **Real-time Event Log** - Stream of all simulation events
+- **Task Lifecycle** - Track task creation, execution, and completion
+- **Resource Events** - Monitor lock acquisition and release
+- **Thread State Changes** - See when threads start, wait, or terminate
+
+## 🛠️ Tech Stack
+
+<table>
+<tr>
+<td>
+
+**Frontend**
+- [Next.js 14](https://nextjs.org/) - React framework with App Router
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe development
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first styling
+- [ShadCN UI](https://ui.shadcn.com/) - Beautiful, accessible components
+- [Recharts](https://recharts.org/) - Data visualization
+
+</td>
+<td>
+
+**AI & Backend**
+- [Google Genkit](https://firebase.google.com/docs/genkit) - AI framework
+- [Gemini API](https://ai.google.dev/) - Generative AI model
+- [Firebase](https://firebase.google.com/) - Backend services
+
+**Development**
+- ESLint & Prettier - Code quality
+- GitHub Actions - CI/CD pipeline
+- Husky - Git hooks
+
+</td>
+</tr>
+</table>
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v18 or later)
-- npm or yarn
+Before you begin, ensure you have the following installed:
 
-### Installation & Setup
+- **Node.js** `v18.0.0` or later ([Download](https://nodejs.org/))
+- **npm** or **yarn** package manager
+- **Git** for version control
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/Kartik-Yadav0001/Thread.git
-    cd Thread
-    ```
+### 📦 Installation
 
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+Follow these steps to set up Thread Weaver locally:
 
-3.  **Set up environment variables:**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Kartik-Yadav0001/Thread_management.git
+   cd Thread_management
+   ```
 
-    Create a `.env` file in the root of the project. You can copy the example if one exists.
-    ```bash
-    touch .env
-    ```
-    You will need to add your API key for the Gemini model to enable the AI Performance Analyst feature.
-    ```
-    GEMINI_API_KEY="your_google_ai_api_key"
-    ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-4.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
+3. **Configure environment variables**
+   
+   Create a `.env` file in the project root:
+   ```bash
+   touch .env
+   ```
+   
+   Add your Gemini API key to enable AI Performance Analyst:
+   ```env
+   GEMINI_API_KEY=your_google_ai_api_key_here
+   ```
+   
+   > 💡 **Get your API key**: Visit [Google AI Studio](https://makersuite.google.com/app/apikey) to obtain a free Gemini API key
 
-Open [http://localhost:9002](http://localhost:9002) in your browser to see the application.
+4. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. **Open your browser**
+   
+   Navigate to [http://localhost:9002](http://localhost:9002) to see the application in action! 🎉
+
+### 🏗️ Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## 📚 Usage Guide
+
+1. **Configure Your Simulation** - Use the control panel to set thread count, task load, and resources
+2. **Start the Simulation** - Click the "Start" button to begin thread pool execution
+3. **Monitor Performance** - Watch real-time metrics, graphs, and thread activity
+4. **Analyze with AI** - Describe your workload and get optimization recommendations
+5. **Review Event Log** - Track all events and understand thread behavior
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Please ensure your code follows the existing style and passes all linting checks.
+
+## 📝 License
+
+This project is open source and available for educational and personal use.
+
+## 🙏 Acknowledgments
+
+- Built with [Next.js](https://nextjs.org/) and [React](https://react.dev/)
+- UI components from [ShadCN UI](https://ui.shadcn.com/)
+- AI capabilities powered by [Google Gemini](https://ai.google.dev/)
+- Icons from [Lucide](https://lucide.dev/)
+
+## 📧 Contact & Support
+
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Kartik-Yadav0001/Thread_management/issues)
+- **Discussions**: [Join the conversation](https://github.com/Kartik-Yadav0001/Thread_management/discussions)
+
+---
+
+<div align="center">
+
+**Made with ❤️ by [Kartik Yadav](https://github.com/Kartik-Yadav0001)**
+
+⭐ Star this repository if you find it helpful!
+
+</div>
