@@ -4,7 +4,7 @@ A dynamic, real-time thread pool simulator for visualizing high-performance comp
 
 [![CI](https://github.com/Kartik-Yadav0001/Thread/actions/workflows/ci.yml/badge.svg)](https://github.com/Kartik-Yadav0001/Thread/actions/workflows/ci.yml)
 
-**[Live Demo](https://your-live-demo-url-here.com)**
+**[Live Demo](https://threadmanagement.netlify.app/)**
 
 Thread Weaver provides an interactive dashboard to simulate and visualize the behavior of a multi-threaded application. It helps in understanding complex concepts like workload distribution, mutex locks, thread synchronization, and performance optimization in a visual and intuitive way.
 
