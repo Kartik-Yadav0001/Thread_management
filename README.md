@@ -2,7 +2,7 @@
 
 A dynamic, real-time thread pool simulator for visualizing high-performance computing concepts.
 
-[![CI](https://github.com/Kartik-Yadav0001/Thread/actions/workflows/ci.yml/badge.svg)](https://github.com/Kartik-Yadav0001/Thread/actions/workflows/ci.yml)
+[![CI](https://github.com/Kartik-Yadav0001/Thread_management/actions/workflows/ci.yml/badge.svg)](https://github.com/Kartik-Yadav0001/Thread_management/actions/workflows/ci.yml)
 
 **[Live Demo](https://threadmanagement.netlify.app/)**
 
@@ -44,8 +44,8 @@ Thread Weaver provides an interactive dashboard to simulate and visualize the be
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Kartik-Yadav0001/Thread.git
-    cd Thread
+    git clone https://github.com/Kartik-Yadav0001/Thread_management.git
+    cd Thread_management
     ```
 
 2.  **Install dependencies:**
